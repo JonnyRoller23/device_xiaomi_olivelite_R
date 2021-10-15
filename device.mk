@@ -41,6 +41,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/msm8996
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/olives/olives-vendor.mk)
